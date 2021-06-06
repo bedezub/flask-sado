@@ -3,10 +3,10 @@ from flask_cors import CORS
 from experta import *
 
 # Python 3
-# from .engine import *
+from .engine import *
 
 # Python 2 - MacOS !?!?!?!
-from engine import *
+# from engine import *
 
 app = Flask(__name__)
 cors = CORS(app)
